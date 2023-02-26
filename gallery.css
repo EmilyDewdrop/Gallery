@@ -10,44 +10,55 @@
 }
 
 .project{
-width: 20rem;
-height: 30rem;
-margin: 0.5rem;
-flex-grow: 1;
-flex-shrink: 1;
+max-width: 45vh;
+height: 29rem;
+margin: 1rem;
 border-radius: 30px;
 background-color: blueviolet;
 text-align: center;
 box-shadow: 10px 10px darkgray;
 font-family: 'DM Sans';
-
 }
 
 .hobby{
     background-color: lightskyblue;
+    flex-grow: 1;
+flex-shrink: 1;
 }
 
 .movie{
     background-color: palegreen;
+    flex-grow: 1;
+flex-shrink: 1;
 }
 
 .website {
     background-color: lightpink;
+    flex-grow: 1;
+flex-shrink: 1;
 }
 
 .game {
     background-color: plum;
+    flex-grow: 1;
+flex-shrink: 1;
 }
 
 img{
     width: 90%;
+    padding-bottom: 1.3rem;
 }
 
 button{
-    padding: 0.5rem;
-    margin-top: 1rem;
-    font-size: 1.5rem;
+    padding: 3%;
+    margin-top: 2%;
+
     background-color: rgb(247, 243, 137);
     border-radius: 15px;
     font-family: 'DM Sans';
+    transition-duration: 0.4s;
+    border: 4px solid darkgray;
+}
+button:hover{
+    background-color: #f7d296;
 }

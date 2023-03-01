@@ -10,8 +10,9 @@
 }
 
 .project{
-max-width: 45vh;
-height: 29rem;
+width: min-content;
+height: 30rem;
+max-width: 25rem;
 margin: 1rem;
 border-radius: 30px;
 background-color: blueviolet;
@@ -45,14 +46,13 @@ flex-shrink: 1;
 }
 
 img{
-    width: 90%;
+    width: 18rem;
     padding-bottom: 1.3rem;
 }
 
 button{
     padding: 3%;
     margin-top: 2%;
-
     background-color: rgb(247, 243, 137);
     border-radius: 15px;
     font-family: 'DM Sans';

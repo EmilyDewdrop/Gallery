@@ -24,11 +24,17 @@
       <div class="project hobby">
         <h1>Hobby Page</h1>
         <img
-          class="logo"
+          id="logo"
           src="Images/CoverArt.png"
           alt="The Roundel Round We Go cover art, featuring a 38 Stock underground train breaking through the Os in the words."
         />
-        <button>Learn more</button>
+        <button type="button" onclick="toggleText()">Learn more</button>
+        <p id="hobbyText" style="display: none">
+          This is a website designed to showcase the podcast 'Roundel Round We
+          Go', a podcast about the London Underground created by my partner and
+          me. The page features inforamtion about the podcasts as well embedded
+          latest episodes.
+        </p>
       </div>
       <div class="project movie">
         <h1>Movie Data</h1>
@@ -37,7 +43,12 @@
           src="Images/popcorn-g614148969_1920.jpg"
           alt="An old-fashion red and white striped box of popcorn."
         />
-        <button>Learn more</button>
+        <button type="button">Learn more</button>
+        <p id="movieText" style="display: none">
+          It's like internet movie database, just a little bit more limited in
+          its scope! Select a film to read a list of details, or add your own
+          film!
+        </p>
       </div>
       <div class="project website">
         <h1>Website</h1>
@@ -58,5 +69,6 @@
         <button>Learn more</button>
       </div>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>
